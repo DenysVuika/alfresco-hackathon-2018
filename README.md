@@ -15,8 +15,16 @@ Look through the following libs:
 
 ## Running
 
+To link the project locally and use as a global tool:
+
+```sh
+npm link
+```
+
+That will register the `adf-ext` command.
+
 Install dependency:
 
 ```sh
-node main.js i my-lib
+adf-ext i my-lib
 ```

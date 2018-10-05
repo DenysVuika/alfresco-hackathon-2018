@@ -7,6 +7,9 @@
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "adf-ext": "./main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DenysVuika/alfresco-hackathon-2018.git"
