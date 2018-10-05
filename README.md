@@ -23,8 +23,18 @@ npm link
 
 That will register the `adf-ext` command.
 
+### Using with Angular projects
+
 Install dependency:
 
 ```sh
 adf-ext i my-lib
 ```
+
+Add already installed dependency.
+
+```sh
+adf-ext add my-lib
+```
+
+Note the `install` command does that, use `add` only if you installed the lib manually.
