@@ -13,6 +13,18 @@ Look through the following libs:
 - [commander - npm](https://www.npmjs.com/package/commander)
 - [shelljs - npm](https://www.npmjs.com/package/shelljs)
 
+It expects the extension to contain a special entry in the `package.json` similar to following:
+
+```json
+{
+    "alfresco": {
+        "extension": "assets/my-extension.json",
+        "module": "MyExtensionModule",
+        "namespace": "my-extension"
+    }
+}
+```
+
 ## Running
 
 To link the project locally and use as a global tool:
