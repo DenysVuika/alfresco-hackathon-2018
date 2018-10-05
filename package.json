@@ -2,8 +2,9 @@
   "name": "adf-extension-installer",
   "version": "1.0.0",
   "description": "ADF Extension Installer",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/DenysVuika/alfresco-hackathon-2018/issues"
   },
-  "homepage": "https://github.com/DenysVuika/alfresco-hackathon-2018#readme"
+  "homepage": "https://github.com/DenysVuika/alfresco-hackathon-2018#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "shelljs": "^0.8.2"
+  }
 }
