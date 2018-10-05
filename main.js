@@ -2,13 +2,15 @@
 
 const program = require('commander');
 const install = require('./install');
+const add = require('./add');
 
-program
-  .command('i <library>')
-  .version('0.1.0')
-  .option('-i, --install', 'Install extension library')
-  .action(function(library) {
-    install(library);
-  });
+program.command('i <library>').action(library => {
+  install(library);
+  add(library);
+});
+
+program.command('add <library>').action((library) => {
+    add(library);
+});
 
 program.parse(process.argv);
