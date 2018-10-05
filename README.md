@@ -66,14 +66,10 @@ Add already installed (manually) dependency from the `node_modules`.
 adf-ext add <package-name>
 ```
 
+Example
+
 ```sh
 adf-ext add my-lib
 ```
 
 Note the `install` command does that, use `add` only if you installed the lib manually.
-
-Adding local tarball packages
-
-```sh
-adf-ext add <path-to-tarball>/my-extension-0.0.1.tgz my-extension
-```
