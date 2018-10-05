@@ -42,6 +42,13 @@ That will register the `adf-ext` command.
 Install dependency:
 
 ```sh
+adf-ext i <npm-package>
+adf-ext i <targball> <package-name>
+```
+
+Example:
+
+```sh
 adf-ext i my-lib
 ```
 
@@ -53,7 +60,11 @@ adf-ext i <path-to-tarball>/my-extension-0.0.1.tgz my-extension
 
 #### Adding existing
 
-Add already installed dependency.
+Add already installed (manually) dependency from the `node_modules`.
+
+```sh
+adf-ext add <package-name>
+```
 
 ```sh
 adf-ext add my-lib
