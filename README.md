@@ -25,6 +25,15 @@ It expects the extension to contain a special entry in the `package.json` simila
 }
 ```
 
+### Targets
+
+- [x] Command-line tool with node.js
+- [x] Install packages from NPM
+- [x] Install packages from packed tarballs
+- [x] Copy extension definition file (.json) to the `src/app/assets/plugins`
+- [ ] Register extension within the `app.extensions.json`
+- [ ] Register extension module in the `src/app/extensions.module.ts`
+
 ## Running
 
 To link the project locally and use as a global tool:
