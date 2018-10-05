@@ -25,11 +25,21 @@ That will register the `adf-ext` command.
 
 ### Using with Angular projects
 
+#### Installing
+
 Install dependency:
 
 ```sh
 adf-ext i my-lib
 ```
+
+Installing local tarball packages
+
+```sh
+adf-ext i <path-to-tarball>/my-extension-0.0.1.tgz my-extension
+```
+
+#### Adding existing
 
 Add already installed dependency.
 
@@ -38,3 +48,9 @@ adf-ext add my-lib
 ```
 
 Note the `install` command does that, use `add` only if you installed the lib manually.
+
+Adding local tarball packages
+
+```sh
+adf-ext add <path-to-tarball>/my-extension-0.0.1.tgz my-extension
+```
